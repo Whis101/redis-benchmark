@@ -1,0 +1,8 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+.git/
+PROJECT_BRIEF.md
+STUDY_GUIDE.md
+INTERVIEW_TALKING_POINTS.md
