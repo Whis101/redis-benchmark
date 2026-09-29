@@ -1,0 +1,14 @@
+
+--- CACHED (same id, repeated) (50 requests) ---
+  p50: 12.0 ms
+  p95: 24.0 ms
+  p99: 59.4 ms
+  throughput: 69.51 req/s
+
+--- UNCACHED (unique id every request -> forced cache miss) (50 requests) ---
+  p50: 1017.0 ms
+  p95: 1030.5 ms
+  p99: 1046.0 ms
+  throughput: 0.98 req/s
+
+Cached p50 is 84.6x faster than uncached p50.
